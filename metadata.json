@@ -1,6 +1,6 @@
 {
   "name": "thias-fooacl",
-  "version": "1.0.1",
+  "version": "1.0.1-ctoa.1",
   "author": "Matthias Saou",
   "license": "Apache-2.0",
   "summary": "POSIX filesystem ACLs module",
