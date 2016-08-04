@@ -16,4 +16,7 @@ define fooacl::conf (
     content => template("${module_name}/20.erb"),
   }
 
+  if defined(File[$title]) and ! $fooacl::fooacl_noop {
+    File[$title] ~> $fooacl::notify
+  }
 }
